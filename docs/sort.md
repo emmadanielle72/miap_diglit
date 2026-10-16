@@ -37,14 +37,8 @@ The`-o` flag prints the output to the output file instead of the standard output
 ### `-S size, --buffer-size=size`
 The`-S` flag denotes the maximum size of the memory buffer. Size modifiers %,b,K,M,G,T,P,E,Z,Y can be used. If a memory limit is not explicitly specified, sort takes up to about 90% of available memory. If the file size is too big to fit into the memory buffer, the temporary disk files are used to perform the sorting. 
 
-
 ## Output
-The `ls` command has many different kinds of outputs as described below:
-* **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
-![screenshot of ls output](ls_no-flags.png)
-
-* **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
-![screenshot of ls list output](ls_l-flag.png)
+The `sort` command has many different kinds of outputs as described below:
 
 ## Examples 
 * If you want to see hidden files in a nice list format run $ `ls -la ~`. The `~` would indicate your home folder.
